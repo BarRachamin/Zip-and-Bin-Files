@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace zipFile
 {
-    public class ReadZipFile
+    public class CreateZipFile
     {
         
         public void AddFolderToZipFile(String FolderPath)
         {
-            using (FileStream zipFile = File.Open("compressFodlder.zip", FileMode.Create))
+            using (FileStream zipFile = File.Open("compressFolder.zip", FileMode.Create))
             {
                 using (Aspose.Zip.Archive archive = new Aspose.Zip.Archive())
                 {

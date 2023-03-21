@@ -14,12 +14,12 @@ namespace zipFile
 
         public static MainManager Instance { get { return _Instance; } }
 
-      public ReadZipFile zipFile { get;  set; }
+      public CreateZipFile zipFile { get;  set; }
 
 
         public void Init()
         {
-           zipFile = new ReadZipFile();
+           zipFile = new CreateZipFile();
         }
     }
 }

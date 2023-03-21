@@ -107,7 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainManager.cs" />
-    <Compile Include="ReadZipFile.cs" />
+    <Compile Include="CreateZipFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
