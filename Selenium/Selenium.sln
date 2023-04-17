@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium", "Selenium\Selenium.csproj", "{EBBEE19A-5868-4CE3-890A-255B141AA46E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth0CheckUser", "Auth0CheckUser\Auth0CheckUser.csproj", "{48A23E2D-A512-4E3F-AB20-744CD9568F4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBBEE19A-5868-4CE3-890A-255B141AA46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBBEE19A-5868-4CE3-890A-255B141AA46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBBEE19A-5868-4CE3-890A-255B141AA46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBBEE19A-5868-4CE3-890A-255B141AA46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A23E2D-A512-4E3F-AB20-744CD9568F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A23E2D-A512-4E3F-AB20-744CD9568F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A23E2D-A512-4E3F-AB20-744CD9568F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A23E2D-A512-4E3F-AB20-744CD9568F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03C820F4-8C1D-4819-9309-B3BEB4B921AF}
+	EndGlobalSection
+EndGlobal
